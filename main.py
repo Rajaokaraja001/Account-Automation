@@ -14,7 +14,7 @@ app = FastAPI()
 # !!! EDIT THIS SECTION FOR YOUR TARGET WEBSITE !!!
 # ===========================================================
 SITE_CONFIG = {
-    "url": "https://example.com/signup",           # CHANGE THIS to the real signup page
+    "url": "https://chat.deepseek.com/sign_up",           # CHANGE THIS to the real signup page
     "email_selector": "input[name='email']",       # CHANGE THIS (inspect the page to find it)
     "password_selector": "input[name='password']", # CHANGE THIS
     "confirm_selector": "input[name='confirm_password']", # CHANGE THIS (delete line if no confirm box)
