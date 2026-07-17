@@ -14,12 +14,12 @@ app = FastAPI()
 # !!! EDIT THIS SECTION FOR YOUR TARGET WEBSITE !!!
 # ===========================================================
 SITE_CONFIG = {
-    "url": "https://chat.deepseek.com/sign_up",           # CHANGE THIS to the real signup page
-    "email_selector": "input[name='email']",       # CHANGE THIS (inspect the page to find it)
-    "password_selector": "input[name='password']", # CHANGE THIS
-    "confirm_selector": "input[name='confirm_password']", # CHANGE THIS (delete line if no confirm box)
-    "submit_selector": "button[type='submit']",    # CHANGE THIS
-    "success_text": "Account activated"            # Text that appears after clicking verification link
+    "url": "https://chat.deepseek.com/sign_up",              # CHANGE THIS
+    "email_selector": "input[name='email']",                  # FIXED: Single quotes inside
+    "password_selector": "input[name='password']",            # FIXED: Single quotes inside
+    "confirm_selector": "input[name='confirm_password']",     # FIXED: Single quotes inside
+    "submit_selector": "button[type='submit']",               # FIXED: Single quotes inside
+    "success_text": "Account activated"                       # Text after verification
 }
 # ===========================================================
 
